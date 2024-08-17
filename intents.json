@@ -1,0 +1,855 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "how are ya",
+        "hey",
+        "whatsup",
+        "??? ??? ??",
+        "Hi there",
+        "Hello there"
+      ],
+      "responses": [
+        "Hello!",
+        "Good day",
+        "Hi there, how can I help you?",
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you with your medical needs?",
+        "Good day! What can I do for you today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg",
+        "I have to go"
+      ],
+      "responses": [
+        "Stay Safe!",
+        "Bye! Have a great day!",
+        "See you later! Stay healthy!",
+        "Goodbye! Take care!",
+        "Get well soon",
+        "Talk to you later",
+        "Goodbye!",
+        "Take care! See you soon!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "I was created by Het Patel",
+        "I was crafted with care and expertise by Het Patel, a talented and innovative developer!",
+        "I was developed by Het Patel, a talented and innovative developer who is passionate about creating solutions that improve your well-being and make the world a healthier place!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": [
+        "You can call me your friendly digital helth assistant, always here to offer insights and support! I'm designed to make your life easier and help you navigate through your day with a bit of tech magic. What can I do for you today?",
+        "I'm your virtual guide, a blend of technology and creativity! Feel free to call me whatever makes you feel comfortable. How can I assist you today?",
+        "I don't have a traditional name, but think of me as your personal assistant, here to help you with all your questions and tasks. What's on your mind?",
+        "I'm your AI ally, designed to assist and provide information. You can call me your tech-savvy helper! What can I do for you today?",
+        "I’m a name-less but ever-ready assistant, here to bring a touch of tech magic to your day. How can I brighten your experience today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Diabetes",
+      "patterns": [
+        "What to do if I have Diabetes?",
+        "How to manage Diabetes?",
+        "Which medicine to take for Diabetes?",
+        "How to control Diabetes?",
+        "Diabetes"
+      ],
+      "responses": [
+        "Managing diabetes involves regular monitoring of blood sugar levels, a healthy diet, regular physical activity, and, if prescribed, medication such as insulin or oral hypoglycemics. Regular check-ups with a healthcare provider are essential to adjust treatment plans as needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cuts",
+      "patterns": [
+        "What to do if I get Cuts?",
+        "How to cure Cuts?",
+        "Which medicine to apply for Cuts?",
+        "what to apply on cuts?",
+        "Cuts"
+      ],
+      "responses": [
+        "Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1-2 minutes. Apply Petroleum Jelly to make sure that the wound is moist for quick healing. Finally cover the cut with a bandage. Pain relievers such as acetaminophen can be used."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Abrasions",
+      "patterns": [
+        "how do you treat abrasions?",
+        "Do Abrasions cause scars?",
+        "Abrasions",
+        "what to do if abrasions?",
+        "Which medicine to apply for abrasions?",
+        "How to cure abrasions?"
+      ],
+      "responses": [
+        "Begin with washed hands.Gently clean the area with cool to lukewarm water and mild soap. Remove dirt or other particles from the wound using sterilized tweezers.For a mild scrape that’s not bleeding, leave the wound uncovered.If the wound is bleeding, use a clean cloth or bandage, and apply gentle pressure to the area to stop any bleeding.Cover a wound that bled with a thin layer of topical antibiotic ointment, like Bacitracin, or a sterile moisture barrier ointment, like Aquaphor. Cover it with a clean bandage or gauze. Gently clean the wound and change the ointment and bandage once per day.Watch the area for signs of infection, like pain or redness and swelling. See your doctor if you suspect infection."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stings",
+      "patterns": [
+        "How do you treat Sting?",
+        "Stings",
+        "What to do if you get a sting?",
+        "Which medicine to apply if sting?"
+      ],
+      "responses": [
+        "Remove any stingers immediately. Some experts recommend scraping out the stinger with a credit card. Applying ice to the site may provide some mild relief. Apply ice for 20 minutes once every hour as needed. Wrap the ice in a towel or keep a cloth between the ice and skin to keep from freezing the skin. Taking an antihistamine such as diphenhydramine (Benadryl) or a nonsedating one such as loratadine (Claritin) will help with itching and swelling. Take acetaminophen (Tylenol) or ibuprofen (Motrin) for pain relief as needed. Wash the sting site with soap and water. Placing hydrocortisone cream on the sting can help relieve redness, itching and swelling."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Splinter",
+      "patterns": [
+        "How to remove Splinters",
+        "How to cure Splinters?",
+        "What to do if I have splinters?",
+        "How do you bring a splinter to the surface?"
+      ],
+      "responses": [
+        "Soak it in EPSOM salt. Dissolve a cup of the salt into a warm bath and soak whatever part of the body has the splinter. You can also put some of the salts onto a bandage pad and leave it covered for a day; this will eventually help bring the splinter to the surface. Another simple way to draw out splinter is to soak the affected area in oil (olive or corn) or white vinegar. Just pour some oil/vinegar in a bowl and soak the area for around 20 to 30 minutes,"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Sprains",
+      "patterns": [
+        "How do you treat a sprain?",
+        "what to do if i get a sprain?",
+        "Which cream to apply if i get a sprain?",
+        "Which medicine to apply if I get a sprain?"
+      ],
+      "responses": [
+        "Use an ice pack or ice slush bath immediately for 15 to 20 minutes and repeat every two to three hours while you're awake. To help stop swelling, compress the ankle with an elastic bandage until the swelling stops. In most cases, pain relievers — such as ibuprofen (Advil, Motrin IB, others) or naproxen sodium (Aleve, others) or acetaminophen (Tylenol, others) are enough to manage the pain of a sprained ankle."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cold",
+      "patterns": [
+        "What to do if I have a cold?",
+        "How to cure a cold?",
+        "Which medicine to take for a cold?",
+        "Cold"
+      ],
+      "responses": [
+        "Rest and stay hydrated. Over-the-counter medications such as decongestants, antihistamines, and pain relievers can help alleviate symptoms. Gargling with salt water and using a humidifier can also provide relief. If symptoms persist, consult a healthcare provider."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Flu",
+      "patterns": [
+        "What to do if I have the flu?",
+        "How to cure the flu?",
+        "Which medicine to take for the flu?",
+        "Flu"
+      ],
+      "responses": [
+        "Rest, stay hydrated, and take over-the-counter medications to reduce fever and alleviate pain. Antiviral medications may be prescribed by a healthcare provider if the flu is diagnosed early. Seek medical attention if symptoms are severe or if you are at high risk for complications."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Headache",
+      "patterns": [
+        "What to do if I have a headache?",
+        "How to cure a headache?",
+        "Which medicine to take for a headache?",
+        "Headache"
+      ],
+      "responses": [
+        "Rest in a quiet, dark room. Over-the-counter pain relievers such as ibuprofen (Advil), acetaminophen (Tylenol), or aspirin can help alleviate headache pain. Staying hydrated and using a cold or warm compress on your head or neck can also provide relief."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fever",
+      "patterns": [
+        "What to do if I have a fever?",
+        "How to reduce a fever?",
+        "Which medicine to take for a fever?",
+        "Fever"
+      ],
+      "responses": [
+        "Stay hydrated and rest. Over-the-counter medications such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) can help reduce fever. Dress in lightweight clothing and keep the room temperature comfortable. Seek medical attention if the fever is very high or persists for more than a few days."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Allergies",
+      "patterns": [
+        "What to do if I have allergies?",
+        "How to manage allergies?",
+        "Which medicine to take for allergies?",
+        "Allergies"
+      ],
+      "responses": [
+        "Avoid known allergens and keep windows closed during high pollen seasons. Over-the-counter antihistamines, decongestants, and nasal corticosteroids can help alleviate symptoms. For severe allergies, consult a healthcare provider about prescription medications or allergy shots."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Back Pain",
+      "patterns": [
+        "What to do if I have back pain?",
+        "How to relieve back pain?",
+        "Which medicine to take for back pain?",
+        "Back pain"
+      ],
+      "responses": [
+        "Rest and avoid heavy lifting or twisting movements. Over-the-counter pain relievers such as ibuprofen (Advil, Motrin) or acetaminophen (Tylenol) can help reduce pain. Applying heat or ice packs to the affected area may also provide relief. Consult a healthcare provider if the pain persists or is severe."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sore Throat",
+      "patterns": [
+        "What to do if I have a sore throat?",
+        "How to cure a sore throat?",
+        "Which medicine to take for a sore throat?",
+        "Sore throat"
+      ],
+      "responses": [
+        "Gargle with warm salt water, stay hydrated, and rest your voice. Over-the-counter pain relievers like acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) can help alleviate pain. Throat lozenges and warm beverages can also provide relief. If symptoms persist, consult a healthcare provider."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Burns",
+      "patterns": [
+        "What to do if I get a burn?",
+        "How to treat a burn?",
+        "Which medicine to apply for burns?",
+        "Burns"
+      ],
+      "responses": [
+        "Cool the burn under cool (not cold) running water for 10-15 minutes or until the pain eases. Apply a clean, non-stick bandage or cloth. Avoid using ice, butter, or ointments that can cause infections. Over-the-counter pain relievers like ibuprofen (Advil) or acetaminophen (Tylenol) can help manage pain. Seek medical attention if the burn is severe or covers a large area."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cough",
+      "patterns": [
+        "What to do if I have a cough?",
+        "How to cure a cough?",
+        "Which medicine to take for a cough?",
+        "Cough"
+      ],
+      "responses": [
+        "Stay hydrated and rest. Over-the-counter cough suppressants or expectorants can help manage symptoms. Warm fluids like tea or honey in hot water can soothe the throat. If the cough persists for more than a few weeks or is accompanied by other symptoms like fever, consult a healthcare provider."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nausea",
+      "patterns": [
+        "What to do if I feel nauseous?",
+        "How to treat nausea?",
+        "Which medicine to take for nausea?",
+        "Nausea"
+      ],
+      "responses": [
+        "Stay hydrated with clear fluids and rest. Over-the-counter medications like antihistamines (e.g., Dramamine) can help alleviate nausea. Eating small, bland meals and avoiding strong odors or spicy foods can also help. If nausea persists or is severe, consult a healthcare provider."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Constipation",
+      "patterns": [
+        "What to do if I am constipated?",
+        "How to cure constipation?",
+        "Which medicine to take for constipation?",
+        "Constipation"
+      ],
+      "responses": [
+        "Increase fiber intake with fruits, vegetables, and whole grains. Drink plenty of water and engage in regular physical activity. Over-the-counter laxatives or stool softeners can provide temporary relief. If constipation persists, consult a healthcare provider."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Diarrhea",
+      "patterns": [
+        "What to do if I have diarrhea?",
+        "How to stop diarrhea?",
+        "Which medicine to take for diarrhea?",
+        "Diarrhea"
+      ],
+      "responses": [
+        "Stay hydrated with water, clear broths, or oral rehydration solutions. Avoid dairy, fatty, or spicy foods. Over-the-counter medications like loperamide (Imodium) can help reduce symptoms. If diarrhea persists for more than two days or is accompanied by severe symptoms, consult a healthcare provider."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Indigestion",
+      "patterns": [
+        "What to do if I have indigestion?",
+        "How to cure indigestion?",
+        "Which medicine to take for indigestion?",
+        "Indigestion"
+      ],
+      "responses": [
+        "Avoid overeating and eat smaller, more frequent meals. Avoid spicy, fatty, or acidic foods. Over-the-counter antacids can provide relief. If indigestion persists or is accompanied by other symptoms like weight loss or severe pain, consult a healthcare provider."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Rash",
+      "patterns": [
+        "What to do if I have a rash?",
+        "How to treat a rash?",
+        "Which cream to apply for a rash?",
+        "Rash"
+      ],
+      "responses": [
+        "Keep the area clean and dry. Avoid scratching and use over-the-counter hydrocortisone cream or antihistamines to reduce itching. If the rash is severe, spreading, or accompanied by other symptoms, consult a healthcare provider."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sunburn",
+      "patterns": [
+        "What to do if I have sunburn?",
+        "How to treat sunburn?",
+        "Which cream to apply for sunburn?",
+        "Sunburn"
+      ],
+      "responses": [
+        "Cool the skin with a cool bath or cool, wet cloths. Apply aloe vera or a moisturizing lotion. Drink plenty of water to stay hydrated. Over-the-counter pain relievers like ibuprofen (Advil, Motrin) can help reduce pain and inflammation. Avoid further sun exposure until the burn has healed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Strains",
+      "patterns": [
+        "How do you treat a strain?",
+        "What to do if I get a strain?",
+        "Which cream to apply if I get a strain?",
+        "Which medicine to apply if I get a strain?",
+        "How do you diagnose a strain?",
+        "Is heat or ice better for a pulled muscle?"
+      ],
+      "responses": [
+        "For a strain, use the R.I.C.E. method: Rest the muscle, Ice it to reduce swelling, Compress with an elastic bandage, and Elevate if possible. Avoid heat initially as it may increase swelling."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nasal Congestion",
+      "patterns": [
+        "How do you treat nasal congestion?",
+        "What to do if I get nasal congestion?",
+        "Which medicine to take if I have nasal congestion?",
+        "What to do if I have a blocked nose?",
+        "How do you treat a blocked nose?",
+        "How long does nasal congestion last?"
+      ],
+      "responses": [
+        "To treat nasal congestion, use a humidifier, stay hydrated, and try saline nasal sprays. Warm compresses on your face can also help. Consult a doctor if symptoms persist."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Skin Problems",
+      "patterns": [
+        "How do you treat skin problems?",
+        "What to do if I get a skin allergy?",
+        "Which medicine to take if I get a skin allergy?",
+        "How to cure a skin allergy?"
+      ],
+      "responses": [
+        "For skin problems or allergies, use hydrocortisone cream or calamine lotion. Antihistamines may help if it's due to an allergy. Apply cold compresses or oatmeal baths for relief."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Abdominal Pain",
+      "patterns": [
+        "How do you treat abdominal pain?",
+        "What to do if I get abdominal pain?",
+        "Which medicine to take if I get abdominal pain?",
+        "How to cure abdominal pain?"
+      ],
+      "responses": [
+        "To manage abdominal pain, drink clear fluids and avoid solid foods until symptoms improve. Eat bland foods like toast or rice. Over-the-counter pain relievers may help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Bruises",
+      "patterns": [
+        "How do you treat bruises?",
+        "What to do if I get a bruise?",
+        "Which medicine to take if I get a bruise?",
+        "How to cure bruises?"
+      ],
+      "responses": [
+        "For bruises, apply an ice pack wrapped in a cloth for 10-20 minutes. Elevate the area to reduce swelling and avoid strenuous activities that could worsen it."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Broken Finger",
+      "patterns": [
+        "How do you treat a broken finger?",
+        "What to do if I get a broken finger?",
+        "Which medicine to take if I get a broken toe?",
+        "How to cure a broken toe?"
+      ],
+      "responses": [
+        "For a broken finger/toe, keep it elevated and iced. Avoid using/walking on it. Use a buddy tape to bind it to the neighboring finger/toe if advised. See a doctor for severe fractures."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Choking",
+      "patterns": [
+        "How do you treat choking?",
+        "What to do if I get choked?",
+        "Which medicine to take if I get choked?",
+        "How to cure choking?"
+      ],
+      "responses": [
+        "If someone is choking, encourage coughing. If that doesn’t work, perform back blows and abdominal thrusts. Seek emergency help if the object isn’t dislodged quickly."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Wound",
+      "patterns": [
+        "How do you treat a wound?",
+        "What to do if I get a wound?",
+        "Which medicine to take if I get wounded?",
+        "How to cure a wound?"
+      ],
+      "responses": [
+        "For wounds, clean with water and apply pressure to stop bleeding. Cover with a sterile bandage and change it regularly. Seek medical attention for deep or severe wounds."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Frost Bite",
+      "patterns": [
+        "How do you treat a Frost bite?",
+        "What to do if I get a Frost bite?",
+        "Which medicine to take if I get a Frost bite?",
+        "How to cure Frost bite?"
+      ],
+      "responses": [
+        "For frostbite, move to a warm area, remove wet clothing, and gently rewarm the affected area with warm (not hot) water. Avoid rubbing or massaging the frostbitten skin. Seek medical help for severe cases."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Heat Exhaustion",
+      "patterns": [
+        "How do you treat Heat Exhaustion?",
+        "What to do if I feel exhausted due to heat?",
+        "Which medicine to take if I get Heat Exhaustion?",
+        "How to cure Heat Exhaustion?"
+      ],
+      "responses": [
+        "For heat exhaustion, move to a cooler place, rest, and drink fluids. Apply cool, damp cloths to the skin. If symptoms persist or worsen, seek medical help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Heat Stroke",
+      "patterns": [
+        "How do you treat Heat Stroke?",
+        "What to do if I get a Heat Stroke?",
+        "Which medicine to take if I get Heat Stroke?",
+        "How to cure Heat Stroke?"
+      ],
+      "responses": [
+        "For heat stroke, call emergency services immediately. While waiting, cool the person with ice packs, cool water, or a cool bath. Ensure they are in a shaded or air-conditioned environment."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Insect Bites",
+      "patterns": [
+        "How do you treat an Insect Bite?",
+        "What to do if an insect bites me?",
+        "Which medicine to take if I get an insect bite?",
+        "How to cure an insect bite?"
+      ],
+      "responses": [
+        "For insect bites, clean the area with soap and water. Apply a cold compress to reduce swelling. Use over-the-counter antihistamines or anti-itch creams if needed. Seek medical attention if you experience severe reactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nose Bleed",
+      "patterns": [
+        "How do you treat a nose bleed?",
+        "What to do if my nose is bleeding?",
+        "Which medicine to take if I get a nose bleed?",
+        "How to cure a nose bleed?"
+      ],
+      "responses": [
+        "For a nosebleed, sit upright and lean forward slightly. Pinch the nostrils together and apply a cold compress to the nose. Avoid lying down or tilting your head back. Seek medical help if bleeding persists."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Testicle Pain",
+      "patterns": [
+        "How do you treat testicle pain?",
+        "What to do if I have testicle pain?",
+        "Which medicine to take if I get testicle pain?",
+        "How to cure testicle pain?"
+      ],
+      "responses": [
+        "For testicle pain, apply ice to the area and take over-the-counter pain relievers. Rest and avoid strenuous activities. Consult a healthcare provider for severe or persistent pain."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Vertigo",
+      "patterns": [
+        "How do you treat vertigo?",
+        "What to do if I have vertigo?",
+        "Which medicine to take if I have vertigo?",
+        "How to cure vertigo?"
+      ],
+      "responses": [
+        "For vertigo, lie down in a comfortable position and keep still. Avoid sudden movements. Consult a healthcare provider to identify the underlying cause and receive appropriate treatment."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Normal Bleeding",
+      "patterns": [
+        "How do you treat normal bleeding?",
+        "What to do if I get bleeding?",
+        "Which medicine to take if I get bleeding?",
+        "How to cure normal bleeding?"
+      ],
+      "responses": [
+        "For normal bleeding, apply direct pressure to the wound with a clean cloth or bandage. Elevate the injured area if possible. Seek medical attention for severe or persistent bleeding."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Eye Injury",
+      "patterns": [
+        "How do you treat an eye injury?",
+        "What to do if I get an eye injury?",
+        "Which medicine to take if I injure my eye?",
+        "How to cure an eye injury?"
+      ],
+      "responses": [
+        "For an eye injury, avoid rubbing the eye. Rinse gently with clean water or saline. Seek medical help immediately if there is significant pain, vision changes, or if something is embedded in the eye."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Chemical Burn",
+      "patterns": [
+        "How do you treat a chemical burn?",
+        "What to do if I get a chemical burn?",
+        "Which medicine to take if I get a chemical burn?",
+        "How to cure a chemical burn?"
+      ],
+      "responses": [
+        "For a chemical burn, rinse the affected area with cool water for at least 20 minutes. Remove any contaminated clothing. Seek emergency medical help immediately for severe burns."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Poison",
+      "patterns": [
+        "How do you treat a Poison?",
+        "What to do if I get Poison?",
+        "Which medicine to take if I am poisoned?",
+        "How to cure Poisoning?"
+      ],
+      "responses": [
+        "For poisoning, move to fresh air, call the Poison Help line (1-800-222-1222), and rinse skin with water if needed. If ingested, call Poison Help immediately. Every poisoning case is different, so seek medical advice."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Teeth",
+      "patterns": [
+        "How do you treat broken Teeth?",
+        "What to do if my Teeth got broken?",
+        "Which medicine to take if I get broken teeth?",
+        "How to cure broken teeth?"
+      ],
+      "responses": [
+        "For a broken tooth, rinse it with water, and if possible, reposition it in the socket. Bite on a handkerchief to keep it in place and see a dentist immediately."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Seizure",
+      "patterns": [
+        "How do you treat a seizure?",
+        "What to do if I get a seizure?",
+        "Which medicine to take if I get a seizure?",
+        "How to cure a seizure?"
+      ],
+      "responses": [
+        "During a seizure, stay calm, keep the person safe, and place them on their side. Put something soft under their head and loosen tight clothing. Seek medical attention if necessary."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fainting",
+      "patterns": [
+        "How do you treat Fainting?",
+        "What to do if I feel like Fainting?",
+        "Which medicine to take if I get a Faint?",
+        "How to cure Fainting?"
+      ],
+      "responses": [
+        "For fainting, lie down or sit with your head between your knees. If the person is lying down, raise their legs. Loosen tight clothing and seek medical help if needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "snake bite",
+      "patterns": [
+        "How do you treat a snake bite?",
+        "What to do if I get a snake bite?",
+        "Which medicine to take if I get a snake bite?",
+        "How to cure a snake bite?",
+        "I got bit by a snake"
+      ],
+      "responses": [
+        "For a snake bite, move the person away from the snake, keep them calm and still, and position the bite below heart level. Cover the bite with a loose, sterile bandage and seek medical help immediately."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal bite",
+      "patterns": [
+        "How do you treat an animal bite?",
+        "How do you treat a monkey bite?",
+        "How do you treat a dog bite?",
+        "What to do if I get an animal bite?",
+        "Which medicine to take if I get a monkey bite?",
+        "How to cure a dog bite?",
+        "I got bit by a dog"
+      ],
+      "responses": [
+        "For an animal bite, wash the wound with soap and water, apply an antibacterial ointment, and cover with a sterile bandage. Watch for signs of infection and seek medical attention if needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Drowning",
+      "patterns": [
+        "What to do if someone is drowning?",
+        "What to do if someone drowned?",
+        "What steps to take if I see a drowning person?",
+        "How to help a drowning person?"
+      ],
+      "responses": [
+        "If someone is drowning, check if they are breathing and have a pulse. If not, start CPR immediately. Keep the person in a safe position and seek medical help as soon as possible."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "CPR",
+      "patterns": [
+        "How to give CPR?",
+        "What to do in CPR?",
+        "What steps to take in CPR?",
+        "How to help a drowning person with CPR?"
+      ],
+      "responses": [
+        "For CPR, place your hands on the center of the chest and press down hard and fast at 100-120 compressions per minute. For infants, use two fingers and press down about 1.5 inches. Check for breathing and pulse regularly."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fracture",
+      "patterns": [
+        "How do you treat a fracture?",
+        "What to do if I get a fracture?",
+        "Which medicine to take if I have a fracture?",
+        "How to cure a fracture?"
+      ],
+      "responses": [
+        "For a fracture, stop any bleeding, immobilize the area, apply ice wrapped in a cloth, and treat for shock if needed. Seek medical help immediately."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "What should I do in case of an emergency?",
+        "Who do I call in an emergency?",
+        "Help, it's an emergency",
+        "I need emergency assistance",
+        "Emergency situation, what should I do?"
+      ],
+      "responses": [
+        "In case of an emergency, call 911 or go to the nearest emergency room immediately.",
+        "For any emergency, dial 911 or contact emergency services.",
+        "If it's an emergency, please call 911 or visit the nearest emergency room.",
+        "In an emergency situation, call 911 or go to the nearest hospital.",
+        "For emergency assistance, dial 911 or go to the closest emergency room."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "medication_reminder",
+      "patterns": [
+        "Remind me to take my medicine",
+        "I need to take my pills at 8 PM",
+        "Can you remind me to take my medication?",
+        "I have to take my insulin at 7 AM",
+        "Remind me to take my blood pressure medicine"
+      ],
+      "responses": [
+        "Sure, I will remind you to take your medicine at the specified time.",
+        "Don't worry, I'll remind you to take your medication."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "Give me some health tips",
+        "How can I stay healthy?",
+        "What are some good health practices?",
+        "Tips for staying healthy",
+        "How do I maintain a healthy lifestyle?"
+      ],
+      "responses": [
+        "Here are some health tips: Eat a balanced diet, stay hydrated, exercise regularly, get enough sleep, avoid smoking, and limit alcohol consumption.",
+        "To stay healthy, make sure to eat plenty of fruits and vegetables, stay physically active, drink water, and get regular medical check-ups.",
+        "Good health practices include maintaining a healthy diet, exercising regularly, getting adequate sleep, managing stress, and avoiding harmful habits.",
+        "Maintain a healthy lifestyle by eating nutritious foods, staying active, staying hydrated, getting enough rest, and managing stress effectively.",
+        "For a healthy lifestyle, focus on balanced nutrition, regular physical activity, adequate sleep, stress management, and avoiding harmful substances."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "doctor_appointment",
+      "patterns": [
+        "I need to schedule a doctor's appointment",
+        "Can you help me book an appointment with my doctor?",
+        "How do I schedule a doctor's visit?",
+        "I need to see a doctor",
+        "Can you book a doctor's appointment for me?"
+      ],
+      "responses": [
+        "Sure, I can help you schedule a doctor's appointment. Please provide me with your preferred date and time.",
+        "I will help you book an appointment with your doctor. When would you like to see the doctor?",
+        "Let's schedule your doctor's visit. Please provide your availability.",
+        "I can assist you in booking a doctor's appointment. When do you need it?",
+        "Sure, I will book a doctor's appointment for you. Please provide your preferred date and time."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I feel depressed",
+        "I'm feeling anxious",
+        "I have anxiety",
+        "Can you help with my mental health?",
+        "What should I do if I'm feeling depressed?"
+      ],
+      "responses": [
+        "If you're feeling depressed, it's important to talk to a mental health professional. They can provide the support and treatment you need.",
+        "For anxiety, consider speaking to a mental health professional. They can offer strategies and treatments to help manage your symptoms.",
+        "Mental health is important. If you're feeling anxious or depressed, reach out to a mental health professional for support and guidance.",
+        "If you're experiencing depression, it's crucial to seek help from a mental health professional. They can offer the support and treatment you need.",
+        "Managing anxiety is important. Consider talking to a mental health professional who can provide support and treatment options."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "general_health",
+      "patterns": [
+        "I feel sick",
+        "I don't feel well",
+        "I'm not feeling good",
+        "I think I have a cold",
+        "I feel unwell"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please tell me more about your symptoms.",
+        "It's important to take care of yourself. Can you describe your symptoms?",
+        "I'm here to help. What symptoms are you experiencing?",
+        "I'm sorry you're not feeling well. Can you tell me more about your symptoms?",
+        "It's important to get the right care. Please describe your symptoms so I can assist you better."
+      ],
+      "context_set": ""
+    }
+  ]
+}
